@@ -1,0 +1,19 @@
+Created by testinium on 2.02.2022
+
+This is a concept file with following syntax for each concept.
+
+#Ürün Detay Sayfasını Kontrol Et
+* "2" saniye bekle
+* "com.ozdilek.ozdilekteyim:id/relLayAddCartBtn" id ile sayfada element var mı kontrol et
+
+#Favorilere Ekle
+*"2" saniye bekle
+* "com.ozdilek.ozdilekteyim:id/relLayAddFav" id li elemente tıkla
+
+#Pantolon Bedeni Seç
+* "2" saniye bekle
+*Pantolon İçin Geçerli Beden Seç
+* "2" saniye bekle
+
+#Pantolonu Sepete Ekle
+* "com.ozdilek.ozdilekteyim:id/relLayAddCartBtn" id li elemente tıkla

@@ -1,0 +1,26 @@
+Created by testinium on 2.02.2022
+
+This is a concept file with following syntax for each concept.
+
+#Kategori Sayfasını Aç
+* "2" saniye bekle
+* "com.ozdilek.ozdilekteyim:id/nav_categories" id li elemente tıkla
+
+#Kategori Sayfasını Kontrol Et
+* "3" saniye bekle
+* "//android.widget.LinearLayout[@content-desc='Kategoriler']/android.widget.TextView" xpath li elementi bul ve "Kategoriler" textini içeriyor mu kontol et
+
+#Kategorilerden Kadını Seç
+* "2" saniye bekle
+* "//*[@resource-id='com.ozdilek.ozdilekteyim:id/relLayCategoriesItem'][2]" xpath li elemente tıkla
+
+#Kadın Kategorisinden Pantalonu Seç
+* "2" saniye bekle
+* "//*[@resource-id='com.ozdilek.ozdilekteyim:id/relLayCategoriesItem'][14]" xpath li elemente tıkla
+
+#Sayfanın Aşağısına 2 Kere Scroll Et
+* Sayfayı En Aşağıya 2 Kez Kaydır
+
+#Rastgele Pantolon Seç
+* "2" saniye bekle
+* "//*[@resource-id='com.ozdilek.ozdilekteyim:id/recyclerView']/android.widget.FrameLayout" xpathi ile rastgele ürün seç
